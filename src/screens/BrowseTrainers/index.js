@@ -402,7 +402,8 @@ class BrowseTrainers extends Component {
 render() {
 
     return (
-        <Container style={styles.container}>
+        <View style={styles.container}>
+        <View style={styles.headerStyle}></View>
             <Header style={styles.headerStyle}>
                 <Image
                     style={{position: "absolute", height: 200, top: 0, left: 0}}
@@ -801,7 +802,7 @@ alignItems: 'center'}}>
      
                 </Form>
             </Content>
-        </Container>
+        </View>
     );
 }
 }

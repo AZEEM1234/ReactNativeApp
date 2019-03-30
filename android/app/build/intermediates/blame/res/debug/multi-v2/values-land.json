@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/azeem-ul-rehman/Downloads/App/App/HomeFit/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/shahrukh/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/azeem-ul-rehman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/e6c5e8f4f24ea2cb56fb5c429e3de024/res/values-land/values-land.xml",
+                    "source": "/home/shahrukh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/aed130b198cc594f97499fa1e79fd5d1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "4,7,10,13,16,17",
                         "startColumns": "4,4,4,4,4,4",

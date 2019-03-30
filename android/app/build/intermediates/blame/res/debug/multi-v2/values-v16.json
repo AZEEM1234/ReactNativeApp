@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/azeem-ul-rehman/Downloads/App/App/HomeFit/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/shahrukh/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/azeem-ul-rehman/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d27373465b62bf97c71aec8953a5d2fd/res/values-v16/values-v16.xml",
+                    "source": "/home/shahrukh/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/23d2b165b669064691d29a07d303f0f1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

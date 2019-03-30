@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/azeem-ul-rehman/Downloads/App/App/HomeFit/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be-rBY/values-be-rBY.xml",
+            "outputFile": "/home/shahrukh/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be-rBY/values-be-rBY.xml",
             "map": [
                 {
-                    "source": "/home/azeem-ul-rehman/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.3.aar/10a6e6282e4dbaea4123720b5e97e455/res/values-be-rBY/values-be-rBY.xml",
+                    "source": "/home/shahrukh/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.3.aar/da963f799bf584f1d168256a8e7be007/res/values-be-rBY/values-be-rBY.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
