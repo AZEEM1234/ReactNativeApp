@@ -122,8 +122,7 @@ class Landing extends Component {
                 <View style={styles.bgImg}>
                     <View>
                         <Text style={styles.title}>Hello Johny</Text>
-                        <Text style={{ color: '#fff', fontSize: 20, left: 20 }}>We manage is homepage for your best
-                        interest</Text>
+                        <Text style={{ color: '#fff', fontSize: 20, left: 20 }}>We manage is homepage for your best interest</Text>
                     </View>
                 </View>
                 <Content>
@@ -659,7 +658,7 @@ const styles = StyleSheet.create({
 
     },
     contentWrap: {
-        paddingHorizontal: 20,
+        paddingRight: 30,
     },
     RowHolder: {
         marginBottom: 8,
