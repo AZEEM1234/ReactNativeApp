@@ -122,7 +122,7 @@ class Landing extends Component {
                 <View style={styles.bgImg}>
                     <View>
                         <Text style={styles.title}>Hello Johny</Text>
-                        <Text style={{ color: '#fff', fontSize: 20, left: 20 }}>We manage is homepage for your best interest</Text>
+                        <Text style={{ color: '#fff', fontSize: 20, marginLeft: 20, marginRight:20}}>We manage is homepage for your best interest</Text>
                     </View>
                 </View>
                 <Content>

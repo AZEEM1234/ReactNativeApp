@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shahrukh/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/home/hiranasir/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/shahrukh/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/23d2b165b669064691d29a07d303f0f1/res/values-v16/values-v16.xml",
+                    "source": "/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/596419d36098a46b6093dd6dabe3fc00/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

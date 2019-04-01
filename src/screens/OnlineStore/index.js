@@ -413,7 +413,7 @@ constructor() {
                     />
                     <Body style={{alignSelf: "flex-start"}}>
                     <Image
-                        style={{position: "absolute", height: 30,width:30, top: 20, left: 20}}
+                        style={{position: "absolute", height: 30,width:40, top: 20, left: 20}}
                         source={backIcon }
                         resizeMode="cover"
                     />
@@ -432,7 +432,7 @@ constructor() {
                 </Header>
 
  
-                <Card style={{borderRadius: 22 / 2,height:150,width:340,shadowColor: "#000",
+                <Card style={{borderRadius: 22 / 2,height:150, padding:10, width:300, marginLeft:-20,shadowColor: "#000",
                             shadowOffset: {
                                 width: 0,
                                 height: 2,
@@ -447,8 +447,8 @@ constructor() {
                             top:140,
                             left:50,
                         }}>
-                            <Title style={{ color:'black',fontSize:20,fontWeight:'bold',right:30,top:10}}>RECOMMENDED FOR YOU</Title>
-                            <Text style={{left:25,fontSize:15, width:270 ,top:15,textAlign:'justify'}}>
+                            <Title style={{ color:'black',fontSize:20,fontWeight:'bold',right:10,top:10}}>RECOMMENDED FOR YOU</Title>
+                            <Text style={{left:10,fontSize:15, width:270 ,top:15,textAlign:'justify'}}>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text
                             </Text>
     
@@ -486,9 +486,9 @@ alignItems: 'center'}}>
                   </View>
                         <View>
                 
-                <Card style={{zIndex:1,right:80
+                <Card style={{zIndex:1,right:80,marginBottom:20
 }}>
-                    <CardItem style={{zIndex:1,height:120,width:330}}>
+                    <CardItem style={{zIndex:1,height:120,width:270}}>
                    
 
                         <View style={{shadowOffset: {
@@ -562,9 +562,9 @@ alignItems: 'center'}}>
                   </View>
                         <View>
                 
-                <Card style={{zIndex:1,right:80
+                <Card style={{zIndex:1,right:80,marginBottom:20
 }}>
-                    <CardItem style={{zIndex:1,height:120,width:330}}>
+                    <CardItem style={{zIndex:1,height:120,width:270,}}>
                    
 
                         <View style={{shadowOffset: {
@@ -638,9 +638,9 @@ alignItems: 'center'}}>
                   </View>
                         <View>
                 
-                <Card style={{zIndex:1,right:80
+                <Card style={{zIndex:1,right:80, marginBottom:20
 }}>
-                    <CardItem style={{zIndex:1,height:120,width:330}}>
+                    <CardItem style={{zIndex:1,height:120,width:270}}>
                    
 
                         <View style={{shadowOffset: {

@@ -79,7 +79,7 @@ export default class FreeLiveGroup extends Component{
                         source={backIcon }
                         resizeMode="cover"
                     />
-                    <Title style={{right:100,bottom:30,fontSize:30,fontWeight:'bold'}}>Aliza Mural</Title>
+                    <Title style={{right:78,bottom:30,fontSize:30,fontWeight:'bold'}}>Aliza Mural</Title>
 
                     <View style={{height: 60, flexDirection: 'row',left:20,bottom:30}}>
                     <StarRatingBar
