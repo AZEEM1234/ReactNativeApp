@@ -44,7 +44,7 @@ const { height, width } = Dimensions.get("window");
 const aerobics = require("./assets/aerobics.png");
 const experience = require("./assets/experience.png");
 const location = require("./assets/location.png");
-const userAdd = require("./assets/users_add.png");
+const cancel = require("./assets/cancel.png");
 const message = require("./assets/users_add.png");
 const arrowIcon = require("./assets/arrow_icon.png");
 const filter = require("./assets/filter.png");
@@ -438,7 +438,11 @@ class BrowseTrainers extends Component {
                         <Icon name='ios-search' />
                         <TextInput placeholder='Search by Trainer name' placeholderTextColor="grey"
                             style={{ color: '#000', width: 250 }} />
-                        <Icon name='ios-people' style={{  position:'absolute', right:0 }} />
+                        <Image
+                        style={{height:20, width:20, position:'absolute', right:10}}
+                        source={cancel}
+                        resizeMode="cover"
+                       />
                     </InputGroup>
                 </Card>
 
@@ -566,13 +570,20 @@ class BrowseTrainers extends Component {
                                 <Card style={{
                                     zIndex: 1, right: 80
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 350 }}>
-
+                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
                                             Michael Clark
-                            </Title>
+                                        </Title>
+                                        
+                                            <Image
+                                                style={{ width: 10, height: 10, right: 20 , top:10 ,  position:'absolute' }}
+                                                source={arrowIcon}
+                                                resizeMode="cover"
+                                            />
+
+                                       
 
 
                                         <View>
@@ -583,7 +594,7 @@ class BrowseTrainers extends Component {
                                             />
                                             <Text style={{ fontSize: 12, bottom: 10, right: 60, }}>
                                                 Aerobics
-                                </Text>
+                                 </Text>
                                         </View>
                                         <View>
                                             <Image
@@ -606,14 +617,7 @@ class BrowseTrainers extends Component {
                                                 California, US
                                 </Text>
                                         </View>
-                                        <View>
-                                            <Image
-                                                style={{ width: 10, height: 10, left: 20 }}
-                                                source={arrowIcon}
-                                                resizeMode="cover"
-                                            />
-
-                                        </View>
+                                       
 
 
                                     </CardItem>
@@ -655,13 +659,20 @@ class BrowseTrainers extends Component {
                                 <Card style={{
                                     zIndex: 1, right: 80
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 350 }}>
-
+                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
                                             Michael Clark
-                            </Title>
+                                        </Title>
+                                        
+                                            <Image
+                                                style={{ width: 10, height: 10, right: 20 , top:10 ,  position:'absolute' }}
+                                                source={arrowIcon}
+                                                resizeMode="cover"
+                                            />
+
+                                       
 
 
                                         <View>
@@ -672,7 +683,7 @@ class BrowseTrainers extends Component {
                                             />
                                             <Text style={{ fontSize: 12, bottom: 10, right: 60, }}>
                                                 Aerobics
-                                </Text>
+                                 </Text>
                                         </View>
                                         <View>
                                             <Image
@@ -695,14 +706,7 @@ class BrowseTrainers extends Component {
                                                 California, US
                                 </Text>
                                         </View>
-                                        <View>
-                                            <Image
-                                                style={{ width: 10, height: 10, left: 20 }}
-                                                source={arrowIcon}
-                                                resizeMode="cover"
-                                            />
-
-                                        </View>
+                                       
 
 
                                     </CardItem>
@@ -744,13 +748,20 @@ class BrowseTrainers extends Component {
                                 <Card style={{
                                     zIndex: 1, right: 80
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 350 }}>
-
+                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
                                             Michael Clark
-                            </Title>
+                                        </Title>
+                                        
+                                            <Image
+                                                style={{ width: 10, height: 10, right: 20 , top:10 ,  position:'absolute' }}
+                                                source={arrowIcon}
+                                                resizeMode="cover"
+                                            />
+
+                                       
 
 
                                         <View>
@@ -761,7 +772,7 @@ class BrowseTrainers extends Component {
                                             />
                                             <Text style={{ fontSize: 12, bottom: 10, right: 60, }}>
                                                 Aerobics
-                                </Text>
+                                 </Text>
                                         </View>
                                         <View>
                                             <Image
@@ -784,14 +795,7 @@ class BrowseTrainers extends Component {
                                                 California, US
                                 </Text>
                                         </View>
-                                        <View>
-                                            <Image
-                                                style={{ width: 10, height: 10, left: 20 }}
-                                                source={arrowIcon}
-                                                resizeMode="cover"
-                                            />
-
-                                        </View>
+                                       
 
 
                                     </CardItem>

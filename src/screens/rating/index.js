@@ -52,7 +52,7 @@ const menu = require("./assets/menu.png");
 const {height, width} = Dimensions.get("window");
 
 
-export default class rating extends Component<Props> {
+export default class rating extends Component {
     ratingCompleted(rating) {
         console.log("Rating is: " + rating)
     }
