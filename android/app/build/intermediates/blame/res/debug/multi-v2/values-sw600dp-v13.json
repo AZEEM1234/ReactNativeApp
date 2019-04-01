@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hiranasir/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/azeem-ul-rehman/Downloads/App/ReactNativeApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/2e585332dd1ec0f1c3be98b097876497/res/values-sw600dp/values-sw600dp.xml",
+                    "source": "/home/azeem-ul-rehman/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/e6c5e8f4f24ea2cb56fb5c429e3de024/res/values-sw600dp/values-sw600dp.xml",
                     "from": {
                         "startLines": "4,5,6,7,10,13,14,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

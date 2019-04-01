@@ -432,7 +432,8 @@ class BrowseTrainers extends Component {
                     borderBottomWidth: 1, position: 'absolute',
                     zIndex: 3,
                     overflow: 'visible',
-                    borderColor: "#000"
+                    borderColor: "#000",
+                    alignSelf:'center',
                 }}>
                     <InputGroup searchBar rounded style={{ backIcongroundColor: '#fff', borderRadius: 44 / 2, width: 350, borderColor: "#000"}}>
                         <Icon name='ios-search' />
@@ -479,9 +480,9 @@ class BrowseTrainers extends Component {
                             <View>
 
                                 <Card style={{
-                                    zIndex: 1, right: 80
+                                    zIndex: 1, right: 80 
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
+                                    <CardItem style={{ zIndex: 1, height: 100, }}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
@@ -570,7 +571,7 @@ class BrowseTrainers extends Component {
                                 <Card style={{
                                     zIndex: 1, right: 80
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
+                                    <CardItem style={{ zIndex: 1, height: 100,}}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
@@ -659,7 +660,7 @@ class BrowseTrainers extends Component {
                                 <Card style={{
                                     zIndex: 1, right: 80
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
+                                    <CardItem style={{ zIndex: 1, height: 100,}}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
@@ -748,7 +749,7 @@ class BrowseTrainers extends Component {
                                 <Card style={{
                                     zIndex: 1, right: 80
                                 }}>
-                                    <CardItem style={{ zIndex: 1, height: 100, width: 300 }}>
+                                    <CardItem style={{ zIndex: 1, height: 100, }}>
 
                                         <Title
                                             style={{ fontSize: 20, fontWeight: 'bold', color: 'black', bottom: 30, left: 40, }}>
@@ -831,7 +832,7 @@ const styles = StyleSheet.create({
 	},
 	backIcon: {
         height: 20,
-        width: 20,
+        width: 30,
 		marginRight: 20,
 	},
     bgImg: {
@@ -866,6 +867,8 @@ const styles = StyleSheet.create({
     },
 
     form: {
+        alignSelf:'center',
+        width:width,
         // position:'relative',
         paddingTop: 50,
         paddingLeft: 40,

@@ -417,22 +417,24 @@ constructor() {
                         source={backIcon }
                         resizeMode="cover"
                     />
+                    <View style={{ alignSelf:'flex-end'}}>
                     <Image
-                        style={{position: "absolute", height: 30,width:30, top: 20, left: 300}}
+                        style={{position: "absolute", height: 30,width:30, top: 20, right:50}}
                         source={searchIcon }
                         resizeMode="cover"
                     />
                     <Image
-                        style={{position: "absolute", height: 30,width:30, top: 20, left: 350}}
+                        style={{position: "absolute", height: 30,width:30, top: 20, right:20}}
                         source={filter }
                         resizeMode="cover"
                     />
+                    </View>
                     <Title style={styles.title}>Online Store</Title>
                     </Body>
                 </Header>
 
  
-                <Card style={{borderRadius: 22 / 2,height:150, padding:10, width:300, marginLeft:-20,shadowColor: "#000",
+                <Card style={{borderRadius: 22 / 2,height:150, padding:10, width:400, marginLeft:-20,shadowColor: "#000",
                             shadowOffset: {
                                 width: 0,
                                 height: 2,
@@ -445,10 +447,11 @@ constructor() {
                             zIndex:4,
                             overflow:'visible',
                             top:140,
-                            left:50,
+            
+                            alignSelf:'center'
                         }}>
-                            <Title style={{ color:'black',fontSize:20,fontWeight:'bold',right:10,top:10}}>RECOMMENDED FOR YOU</Title>
-                            <Text style={{left:10,fontSize:15, width:270 ,top:15,textAlign:'justify'}}>
+                            <Title style={{ color:'black',fontSize:20,fontWeight:'bold',top:10 ,alignSelf:'center'}}>RECOMMENDED FOR YOU</Title>
+                            <Text style={{left:10,fontSize:15, width:270 ,top:15,textAlign:'justify',alignSelf:'center'}}>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text
                             </Text>
     
@@ -462,170 +465,18 @@ constructor() {
                     <View style={{ 
     flexDirection: 'row',
 alignItems: 'center'}}>
-                  <View>
+                  <View sytle={{ alignSelf:'center'}}>
 
                 <Image
                                 style={{
                                 
-                                width: 100,
-                                height: 100,
+                                width: 80,
+                                height: 80,
                                 borderRadius: 50 / 2,
                                 zIndex: 2,
                                 // flex:1,
-                                right:35,
-                                bottom: 10,
-                                overflow:'visible',
-                                shadowColor: '#000',
-                                shadowOffset: { width: 0, height: 0 },
-                                shadowOpacity: 0.2,
-                                shadowRadius: 10,
-                                elevation: 7,}}
-                                source={product2}
-                                resizeMode="cover"
-                            />
-                  </View>
-                        <View>
-                
-                <Card style={{zIndex:1,right:80,marginBottom:20
-}}>
-                    <CardItem style={{zIndex:1,height:120,width:270}}>
-                   
-
-                        <View style={{shadowOffset: {
-                                width: 0,
-                                height: 2,
-                            },
-                            shadowOpacity: 0.25,
-                            shadowRadius: 3.84,
-
-                            elevation: 5,}}>
-                            <Image
-                                style={{width: 80, height: 80, right: 60,}}
-                                source={product2}
-                                resizeMode="cover"
-                            />
-                        </View>
-                        <Title
-                            style={{fontSize: 20, fontWeight: 'bold', color: 'black', right: 50, bottom: 40}}>
-                            Sinfit Crunch Bar
-                        </Title>
-
-
-                        <View>
-
-                            <Text style={{right: 200, fontSize: 14,bottom:15}}>
-                                Caramel Crunch
-                            </Text>
-                        </View>
-                        <View>
-                            <Text style={{right: 300, fontSize: 20,fontWeight:'bold',color:'blue', top:30}}>
-                                $49.99
-                            </Text>
-
-                            <Image
-                                style={{width: 20, height: 20, right: 60, top: 10}}
-                                source={arrowIcon}
-                                resizeMode="cover"
-                            />
-                            
-                        </View>
-                    </CardItem>
-
-
-                </Card>
-                </View>
-                </View>
-                <View style={{ 
-    flexDirection: 'row',
-alignItems: 'center'}}>
-                  <View>
-
-                <Image
-                                style={{
-                                
-                                width: 100,
-                                height: 100,
-                                borderRadius: 50 / 2,
-                                zIndex: 2,
-                                // flex:1,
-                                right:35,
-                                bottom: 10,
-                                overflow:'visible',
-                                shadowColor: '#000',
-                                shadowOffset: { width: 0, height: 0 },
-                                shadowOpacity: 0.2,
-                                shadowRadius: 10,
-                                elevation: 7,}}
-                                source={product3}
-                                resizeMode="cover"
-                            />
-                  </View>
-                        <View>
-                
-                <Card style={{zIndex:1,right:80,marginBottom:20
-}}>
-                    <CardItem style={{zIndex:1,height:120,width:270,}}>
-                   
-
-                        <View style={{shadowOffset: {
-                                width: 0,
-                                height: 2,
-                            },
-                            shadowOpacity: 0.25,
-                            shadowRadius: 3.84,
-
-                            elevation: 5,}}>
-                            <Image
-                                style={{width: 80, height: 80, right: 60,}}
-                                source={product3}
-                                resizeMode="cover"
-                            />
-                        </View>
-                        <Title
-                            style={{fontSize: 20, fontWeight: 'bold', color: 'black', right: 50, bottom: 40}}>
-                            Sinfit Crunch Bar
-                        </Title>
-
-
-                        <View>
-
-                            <Text style={{right: 200, fontSize: 14,bottom:15}}>
-                                Caramel Crunch
-                            </Text>
-                        </View>
-                        <View>
-                            <Text style={{right: 300, fontSize: 20,fontWeight:'bold',color:'blue', top:30}}>
-                                $49.99
-                            </Text>
-
-                            <Image
-                                style={{width: 20, height: 20, right: 60, top: 10}}
-                                source={arrowIcon}
-                                resizeMode="cover"
-                            />
-                            
-                        </View>
-                    </CardItem>
-
-
-                </Card>
-                </View>
-                </View>
-                <View style={{ 
-    flexDirection: 'row',
-alignItems: 'center'}}>
-                  <View>
-
-                <Image
-                                style={{
-                                
-                                width: 100,
-                                height: 100,
-                                borderRadius: 50 / 2,
-                                zIndex: 2,
-                                // flex:1,
-                                right:35,
-                                bottom: 10,
+                                right:20,
+                                bottom: 15,
                                 overflow:'visible',
                                 shadowColor: '#000',
                                 shadowOffset: { width: 0, height: 0 },
@@ -636,11 +487,11 @@ alignItems: 'center'}}>
                                 resizeMode="cover"
                             />
                   </View>
-                        <View>
+                        <View style={{width:300,paddingRight:100}}>
                 
-                <Card style={{zIndex:1,right:80, marginBottom:20
+                <Card style={{zIndex:1,marginBottom:20 ,alignSelf:'center'
 }}>
-                    <CardItem style={{zIndex:1,height:120,width:270}}>
+                    <CardItem style={{zIndex:1,height:120,width:320}}>
                    
 
                         <View style={{shadowOffset: {
@@ -651,31 +502,27 @@ alignItems: 'center'}}>
                             shadowRadius: 3.84,
 
                             elevation: 5,}}>
-                            <Image
-                                style={{width: 80, height: 80, right: 60,}}
-                                source={product1}
-                                resizeMode="cover"
-                            />
+                            
                         </View>
                         <Title
-                            style={{fontSize: 20, fontWeight: 'bold', color: 'black', right: 50, bottom: 40}}>
+                            style={{fontSize: 20, fontWeight: 'bold', color: 'black', left: 40, bottom: 40}}>
                             Sinfit Crunch Bar
                         </Title>
 
 
                         <View>
 
-                            <Text style={{right: 200, fontSize: 14,bottom:15}}>
+                            <Text style={{right: 120, fontSize: 14,bottom:15}}>
                                 Caramel Crunch
                             </Text>
                         </View>
                         <View>
-                            <Text style={{right: 300, fontSize: 20,fontWeight:'bold',color:'blue', top:30}}>
+                            <Text style={{right: 220, fontSize: 20,fontWeight:'bold',color:'blue', top:30}}>
                                 $49.99
                             </Text>
 
                             <Image
-                                style={{width: 20, height: 20, right: 60, top: 10}}
+                                style={{width: 10, height: 10, left: 20, top: 10}}
                                 source={arrowIcon}
                                 resizeMode="cover"
                             />
@@ -689,6 +536,152 @@ alignItems: 'center'}}>
                 </View>
                 
                 
+                <View style={{ 
+    flexDirection: 'row',
+alignItems: 'center'}}>
+                  <View sytle={{ alignSelf:'center'}}>
+
+                <Image
+                                style={{
+                                
+                                width: 80,
+                                height: 80,
+                                borderRadius: 50 / 2,
+                                zIndex: 2,
+                                // flex:1,
+                                right:20,
+                                bottom: 15,
+                                overflow:'visible',
+                                shadowColor: '#000',
+                                shadowOffset: { width: 0, height: 0 },
+                                shadowOpacity: 0.2,
+                                shadowRadius: 10,
+                                elevation: 7,}}
+                                source={product2}
+                                resizeMode="cover"
+                            />
+                  </View>
+                        <View style={{width:300,paddingRight:100}}>
+                
+                <Card style={{zIndex:1,marginBottom:20 ,alignSelf:'center'
+}}>
+                    <CardItem style={{zIndex:1,height:120,width:320}}>
+                   
+
+                        <View style={{shadowOffset: {
+                                width: 0,
+                                height: 2,
+                            },
+                            shadowOpacity: 0.25,
+                            shadowRadius: 3.84,
+
+                            elevation: 5,}}>
+                            
+                        </View>
+                        <Title
+                            style={{fontSize: 20, fontWeight: 'bold', color: 'black', left: 40, bottom: 40}}>
+                            Sinfit Crunch Bar
+                        </Title>
+
+
+                        <View>
+
+                            <Text style={{right: 120, fontSize: 14,bottom:15}}>
+                                Caramel Crunch
+                            </Text>
+                        </View>
+                        <View>
+                            <Text style={{right: 220, fontSize: 20,fontWeight:'bold',color:'blue', top:30}}>
+                                $49.99
+                            </Text>
+
+                            <Image
+                                style={{width: 10, height: 10, left: 20, top: 10}}
+                                source={arrowIcon}
+                                resizeMode="cover"
+                            />
+                            
+                        </View>
+                    </CardItem>
+
+
+                </Card>
+                </View>
+                </View>
+
+                <View style={{ 
+    flexDirection: 'row',
+alignItems: 'center'}}>
+                  <View sytle={{ alignSelf:'center'}}>
+
+                <Image
+                                style={{
+                                
+                                width: 80,
+                                height: 80,
+                                borderRadius: 50 / 2,
+                                zIndex: 2,
+                                // flex:1,
+                                right:20,
+                                bottom: 15,
+                                overflow:'visible',
+                                shadowColor: '#000',
+                                shadowOffset: { width: 0, height: 0 },
+                                shadowOpacity: 0.2,
+                                shadowRadius: 10,
+                                elevation: 7,}}
+                                source={product3}
+                                resizeMode="cover"
+                            />
+                  </View>
+                        <View style={{width:300,paddingRight:100}}>
+                
+                <Card style={{zIndex:1,marginBottom:20 ,alignSelf:'center'
+}}>
+                    <CardItem style={{zIndex:1,height:120,width:320}}>
+                   
+
+                        <View style={{shadowOffset: {
+                                width: 0,
+                                height: 2,
+                            },
+                            shadowOpacity: 0.25,
+                            shadowRadius: 3.84,
+
+                            elevation: 5,}}>
+                            
+                        </View>
+                        <Title
+                            style={{fontSize: 20, fontWeight: 'bold', color: 'black', left: 40, bottom: 40}}>
+                            Sinfit Crunch Bar
+                        </Title>
+
+
+                        <View>
+
+                            <Text style={{right: 120, fontSize: 14,bottom:15}}>
+                                Caramel Crunch
+                            </Text>
+                        </View>
+                        <View>
+                            <Text style={{right: 220, fontSize: 20,fontWeight:'bold',color:'blue', top:30}}>
+                                $49.99
+                            </Text>
+
+                            <Image
+                                style={{width: 10, height: 10, left: 20, top: 10}}
+                                source={arrowIcon}
+                                resizeMode="cover"
+                            />
+                            
+                        </View>
+                    </CardItem>
+
+
+                </Card>
+                </View>
+                </View>
+
 
                     </Form>
                 </Content>
@@ -727,6 +720,7 @@ const styles = StyleSheet.create({
     },
     form: {
 
+        alignSelf:'center',
         position:'relative',
         paddingTop: 120,
         paddingLeft: 40,
