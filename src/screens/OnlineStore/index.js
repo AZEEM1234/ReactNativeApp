@@ -434,7 +434,7 @@ constructor() {
                 </Header>
 
  
-                <Card style={{borderRadius: 22 / 2,height:150, padding:10, width:400, marginLeft:-20,shadowColor: "#000",
+                <Card style={{borderRadius: 22 / 2,height:150, padding:10, width:350, marginLeft:-20,shadowColor: "#000",
                             shadowOffset: {
                                 width: 0,
                                 height: 2,
@@ -446,7 +446,7 @@ constructor() {
                             position:'absolute',
                             zIndex:4,
                             overflow:'visible',
-                            top:140,
+                            top:110,
             
                             alignSelf:'center'
                         }}>
@@ -475,7 +475,7 @@ alignItems: 'center'}}>
                                 borderRadius: 50 / 2,
                                 zIndex: 2,
                                 // flex:1,
-                                right:20,
+                                right:10,
                                 bottom: 15,
                                 overflow:'visible',
                                 shadowColor: '#000',
@@ -549,7 +549,7 @@ alignItems: 'center'}}>
                                 borderRadius: 50 / 2,
                                 zIndex: 2,
                                 // flex:1,
-                                right:20,
+                                right:10,
                                 bottom: 15,
                                 overflow:'visible',
                                 shadowColor: '#000',
@@ -622,7 +622,7 @@ alignItems: 'center'}}>
                                 borderRadius: 50 / 2,
                                 zIndex: 2,
                                 // flex:1,
-                                right:20,
+                                right:10,
                                 bottom: 15,
                                 overflow:'visible',
                                 shadowColor: '#000',
@@ -712,7 +712,7 @@ const styles = StyleSheet.create({
         borderBottomStartRadius: 10
     },
     title: {
-        paddingTop: 100,
+        paddingTop: 60,
         paddingLeft: 20,
         color: "#fff",
         fontSize: 30,
